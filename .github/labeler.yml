@@ -10,6 +10,10 @@ prod:
   - changed-files:
       - any-glob-to-any-file: PROD/**
 
+prep:
+  - changed-files:
+      - any-glob-to-any-file: PREP/**
+
 sandbox:
   - changed-files:
       - any-glob-to-any-file: SANDBOX/**
